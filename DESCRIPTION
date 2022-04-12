@@ -1,13 +1,12 @@
-Package: mytrackingstudprojectname
-Title: What do you study (One Line, Title Case)
+Package: MongolianNightjar
+Title: Migration routes and timing of European Nightjars breeding in Eastern Mongolia
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Raphael", "Nussbaumer", , "rafnuss@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8185-1020"))
 Description: What do you study (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
-URL: https://github.com/Rafnuss/GeoPressureTemplate
+License: use_gpl3_license()
+URL: https://github.com/Rafnuss/MongolianNightjar
 Depends: 
     R (>= 3.5.0)
 Imports: 
