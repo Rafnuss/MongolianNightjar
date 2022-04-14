@@ -1,11 +1,11 @@
 Package: MongolianNightjar
 Title: Migration routes and timing of European Nightjars breeding in Eastern Mongolia
-Version: 0.0.0.9000
+Version: 0.0.2
 Authors@R: 
     person("Raphael", "Nussbaumer", , "rafnuss@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-8185-1020"))
 Description: What do you study (one paragraph).
-License: use_gpl3_license()
+License: GPL (>= 3)
 URL: https://github.com/Rafnuss/MongolianNightjar
 Depends: 
     R (>= 3.5.0)
@@ -24,7 +24,9 @@ Imports:
     raster,
     RColorBrewer,
     readr,
-    readxl
+    readxl,
+    rmarkdown,
+    distill
 VignetteBuilder: 
     knitr
 Encoding: UTF-8
