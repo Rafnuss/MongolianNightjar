@@ -9,8 +9,10 @@ library(raster)
 library(dplyr)
 library(readxl)
 
+debug <- F
+
 # Define the geolocator data logger id to use
-# gdl <- "18LX"
+gdl <- "24FD"
 
 # Load the pressure file, also contains set, pam, col
 load(paste0("data/1_pressure/", gdl, "_pressure_prob.Rdata"))
@@ -100,69 +102,64 @@ path <- geopressure_map2path(static_prob)
 static_timeserie <- geopressure_ts_path(path, pam$pressure)
 
 
+if (debug) {
+  # GeopressureViz
+  geopressureviz <- list(
+    pam_data = pam,
+    static_prob = static_prob,
+    pressure_prob = pressure_prob,
+    light_prob = light_prob,
+    pressure_timeserie = static_timeserie
+  )
+  save(geopressureviz, file = "~/geopressureviz.RData")
 
-# GeopressureViz
-geopressureviz <- list(
-  pam_data = pam,
-  static_prob = static_prob,
-  pressure_prob = pressure_prob,
-  light_prob = light_prob,
-  pressure_timeserie = static_timeserie
-)
-save(geopressureviz, file = "~/geopressureviz.RData")
-
-appDir <- system.file("geopressureviz", package = "GeoPressureR")
-shiny::runApp(appDir, launch.browser = getOption("browser"))
-
-
+  appDir <- system.file("geopressureviz", package = "GeoPressureR")
+  shiny::runApp(appDir, launch.browser = getOption("browser"))
 
 
+  # Check 1
+  static_prob_n <- lapply(static_prob, function(x) {
+    probt <- raster::as.matrix(x)
+    probt[is.na(probt)] <- 0
+    probt / sum(probt, na.rm = T)
+  })
+  tmp <- unlist(lapply(static_prob_n, sum)) == 0
+  if (any(tmp)) {
+    warning(paste0(
+      "The `static_prob` provided has a probability map equal to ",
+      "zero for the stationay period: ", which(tmp)
+    ))
+  }
 
 
+  ## Check 2
+  for (i_s in seq_len(length(static_prob) - 1)) {
+    cur <- as.matrix(static_prob[[i_s]]) > 0
+    cur[is.na(cur)] <- F
+    nex <- as.matrix(static_prob[[i_s + 1]]) > 0
+    nex[is.na(nex)] <- F
 
-# Check 1
-static_prob_n <- lapply(static_prob, function(x) {
-  probt <- raster::as.matrix(x)
-  probt[is.na(probt)] <- 0
-  probt / sum(probt, na.rm = T)
-})
-tmp <- unlist(lapply(static_prob_n, sum)) == 0
-if (any(tmp)) {
-  warning(paste0(
-    "The `static_prob` provided has a probability map equal to ",
-    "zero for the stationay period: ", which(tmp)
-  ))
-}
+    mtf <- metadata(static_prob[[i_s]])
+    flight_duration <- as.numeric(sum(difftime(mtf$flight$end, mtf$flight$start, unit = "hours"))) # hours
+    resolution <- mean(res(static_prob[[1]])) * 111 # assuming 1°= 111km
+    thr_gs <- # Assuming a max groundspeed of 150km/h
+      # Accepting a minimium of 3 grid resolution for noise/uncertainty.
+      flight_duration <- pmax(flight_duration, resolution * 3 / gpr$thr_gs)
 
+    # Check possible position at next stationary period
+    possible_next <- (EBImage::distmap(!cur) * resolution / flight_duration) < gpr$thr_gs
 
-
-
-## Check 2
-for (i_s in seq_len(length(static_prob) - 1)) {
-  cur <- as.matrix(static_prob[[i_s]]) > 0
-  cur[is.na(cur)] <- F
-  nex <- as.matrix(static_prob[[i_s + 1]]) > 0
-  nex[is.na(nex)] <- F
-
-  mtf <- metadata(static_prob[[i_s]])
-  flight_duration <- as.numeric(sum(difftime(mtf$flight$end, mtf$flight$start, unit = "hours"))) # hours
-  resolution <- mean(res(static_prob[[1]])) * 111 # assuming 1°= 111km
-  thr_gs <- 150 # Assuming a max groundspeed of 150km/h
-
-  # Check possible position at next stationary period
-  possible_next <- EBImage::distmap(!cur) < (thr_gs * flight_duration / resolution)
-
-  if (sum(possible_next & nex) == 0) {
-    stop(paste("There are no possible transition from stationary period", i_s, "to", i_s + 1, ". Check part 1 process (light and pressure)", sep = " "))
+    if (sum(possible_next & nex) == 0) {
+      stop(paste("There are no possible transition from stationary period", i_s, "to", i_s + 1, ". Check part 1 process (light and pressure)", sep = " "))
+    }
   }
 }
 
-
 ## Save
 save(pam,
-  col,
-  gpr,
-  static_prob,
-  static_timeserie,
-  file = paste0("data/3_static/", gpr$gdl_id, "_static_prob.Rdata")
+     col,
+     gpr,
+     static_prob,
+     static_timeserie,
+     file = paste0("data/3_static/", gpr$gdl_id, "_static_prob.Rdata")
 )
