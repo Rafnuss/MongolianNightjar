@@ -1,0 +1,43 @@
+---
+site: distill::distill_website
+params:
+  gdl_id: "22BS"
+---
+---
+title: `r params$gdl_id`
+description: | 
+  Long stationay period position
+---
+
+```{r setup, message=F}
+library(GeoPressureR)
+library(leaflet)
+library(leaflet.extras)
+library(raster)
+library(dplyr)
+library(ggplot2)
+library(plotly)
+knitr::opts_chunk$set(echo = FALSE)
+load(paste0("../data/1_pressure/", params$gdl_id, "_pressure_prob.Rdata"))
+load(paste0("../data/2_light/", params$gdl_id, "_light_prob.Rdata"))
+load(paste0("../data/3_static/", params$gdl_id, "_static_prob.Rdata"))
+sta_pres <- unlist(lapply(pressure_prob, function(x) raster::metadata(x)$sta_id))
+sta_light <- unlist(lapply(light_prob, function(x) raster::metadata(x)$sta_id))
+sta_id_keep <- intersect(sta_pres, sta_light)
+pressure_prob <- pressure_prob[sta_pres %in% sta_id_keep]
+light_prob <- light_prob[sta_light %in% sta_id_keep]
+```
+
+```{r, layout="l-page"}
+thr_sta_dur  = 10
+sta_thr <- pam$sta$sta_id[difftime(pam$sta$end, pam$sta$start, units = "days") > thr_sta_dur]
+i_sta = 75
+i_s = which(unlist(lapply(static_prob,function(x){metadata(x)$sta_id})) == i_sta)
+```
+
+```{r, layout="l-page"}
+
+plot(static_prob[[i_s]])
+```
+
+
