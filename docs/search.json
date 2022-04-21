@@ -6,7 +6,7 @@
       "description": "Migration routes and timing of European Nightjars breeding in Eastern Mongolia\n",
       "author": [],
       "contents": "\n\n\nShow code\n\n# List all the html file found on in the reports/html folder\nf <- list.files(path = \".\", patter=\"*.html\",recursive = TRUE)\n\nf_dirname <- lapply(f,dirname)\nf_basename <- lapply(f,basename)\n\nfor (i_f_dir in unique(f_dirname)) {\n  cat(paste(\"## \", tools::toTitleCase(stringr::str_replace_all(i_f_dir, \"_\", \" \"))))\n  cat(\"\\n\")\n  for (i_f in seq_len(length(f))) {\n    if (f_dirname[[i_f]] == i_f_dir) {\n      cat(paste(\"* <a href='\", f[[i_f]], \"'>\", sub(\"\\\\.html$\", \"\", f_basename[[i_f]]), \"<\/a>\"), sep = \"\\n\")\n    }\n  }\n  cat(\"\\n\")\n}\n\n\nBasic Trajectory\n 22BS \n 22BT \n 24FD \nTechnical Details\n 22BS \n 22BT \n 24FD \n\n\n\n\n",
-      "last_modified": "2022-04-16T21:08:05-04:00"
+      "last_modified": "2022-04-21T17:40:08-04:00"
     }
   ],
   "collections": []

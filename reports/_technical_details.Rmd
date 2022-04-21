@@ -146,9 +146,12 @@ Similarly, we can plot the line of sunrise/sunset at the best match of pressure 
   for (ts in shortest_path_timeserie){
     twl_fl <- twl %>%
       filter(twilight>ts$date[1] & twilight<tail(ts$date,1))
+    if (nrow(twl_fl)>0){
     tsimageDeploymentLines(twl_fl$twilight,
                            lon = ts$lon[1], ts$lat[1],
                            offset = gpr$shift_k / 60 / 60, lwd = 3,col = adjustcolor("orange", alpha.f = 0.5))
+      
+    }
   }
 ```
 

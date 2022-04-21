@@ -72,7 +72,7 @@ if (!file.exists(paste0("data/2_light/labels/", gpr$gdl_id, "_light-labeled.csv"
       series = ifelse(twl$rise, "Rise", "Set"),
       timestamp = strftime(twl$twilight, "%Y-%m-%dT00:00:00Z", tz = "UTC"),
       value = (as.numeric(format(twl$twilight, "%H")) * 60 + as.numeric(format(twl$twilight, "%M"))
-               - gpr$shift_k/60 + 60 * 12) %% (60*24),
+               + gpr$shift_k/60 + 60 * 12) %% (60*24),
       label = ifelse(is.null(twl$delete), "", ifelse(twl$delete, "Delete", ""))
     ),
     paste0("data/2_light/labels/", gpr$gdl_id, "_light.csv"),
