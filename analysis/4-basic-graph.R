@@ -102,6 +102,7 @@ if (debug) {
 
   # In depth analysis with GeoPressureViz
   load(paste0("data/1_pressure/", gdl, "_pressure_prob.Rdata"))
+  load(paste0("data/2_light/", gdl, "_light_prob.Rdata"))
   sta_marginal <- unlist(lapply(static_prob_marginal, function(x) raster::metadata(x)$sta_id))
   sta_pres <- unlist(lapply(pressure_prob, function(x) raster::metadata(x)$sta_id))
   sta_light <- unlist(lapply(light_prob, function(x) raster::metadata(x)$sta_id))
