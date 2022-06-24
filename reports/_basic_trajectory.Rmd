@@ -113,7 +113,7 @@ for (pres_prob in pressure_prob_lg) {
   info_str <- paste0(i_s, " | ", info[1], "->", info[2])
   li_s <- append(li_s, info_str)
   m <- m %>%
-    addRasterImage(pres_prob, opacity = 0.8, colors = "OrRd", group = info_str)
+    addRasterImage(pres_prob, opacity = 0.8, colors = "viridis", group = info_str)
 }
 m %>%
   addLayersControl(
@@ -122,4 +122,3 @@ m %>%
   ) %>%
   hideGroup(tail(li_s, length(li_s) - 1))
 ```
-r

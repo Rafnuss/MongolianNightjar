@@ -4,7 +4,7 @@ library(dplyr)
 library(ggplot2)
 
 debug <- T
-gdl_id <- "22BT"
+gdl_id <- "22BS"
 
 
 load(paste0("data/1_pressure/", gdl_id, "_pressure_prob.Rdata"))
