@@ -43,13 +43,13 @@ default:
   graph_add_wind:
     thr_as: 90 # km/h
   graph_set_movement: # ?graph_set_movement()
-    # type: "gs"
+    type: "as"
     # method: "gamma"
     # shape: 7 # only for gamma
     # scale: 7
     # location: 40 # only for logistic
-    # low_speed_fix: 15 # km/h
-    # zero_speed_ratio: 1
+    low_speed_fix: 15 # km/h
+    zero_speed_ratio: 1.3
   bird_create:
     scientific_name: "Caprimulgus europaeus"
   graph_simulation: # ?graph_simulation()

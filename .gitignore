@@ -39,3 +39,9 @@ vignettes/*.pdf
 .Renviron
 
 .DS_Store
+
+# GeoPressureR
+# data/tag-raw/* # Uncomment to avoid making the raw data available
+# data/interim/* # Comment to keep the Rdata file on github
+data/wind/*
+data/datapackage/*
