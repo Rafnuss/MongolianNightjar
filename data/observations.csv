@@ -1,0 +1,103 @@
+ring_number,tag_id,observation_type,datetime,latitude,longitude,location_name,device_status,catching_method,age_class,sex,mass,wing_length,additional_metric,observation_comments
+E000378,22CA,equipment,2018-06-21T23:30,48.582136,110.811236,ONON RIVER,present,M,4,M,65,191,"{""tail"": 126.0, ""bill_length"": 9.85, ""bill_width"": 7.02}",Caprimulgus europeaus
+E000379,22BU,equipment,2018-06-21T23:59,48.580888,110.807874,ONON RIVER,present,M,4,M,66,193,"{""tail"": 139.0, ""bill_length"": 9.24, ""bill_width"": 7.34}",Caprimulgus europeaus
+E000380,,capture,2018-06-22T03:00,48.580295,110.81047,ONON RIVER,none,M,4,F,80,201,"{""tail"": 139.0, ""bill_length"": 9.58, ""bill_width"": 7.04}",Caprimulgus europeaus
+E000381,,capture,2018-06-22T03:00,48.582136,110.811236,ONON RIVER,none,M,4,M,64,192,"{""bill_length"": 8.89, ""bill_width"": 6.87}",Caprimulgus europeaus
+E000382,22BI,equipment,2018-06-22T21:30,48.570665,110.832602,ONON RIVER,present,M,4,M,57,199,"{""tail"": 144.0, ""bill_length"": 8.65, ""bill_width"": 7.32}",Caprimulgus europeaus
+E000383,22BS,equipment,2018-06-22T21:30,48.570665,110.832602,ONON RIVER,present,M,4,M,64,197,"{""tail"": 144.0, ""bill_length"": 9.21, ""bill_width"": 8.03}",Caprimulgus europeaus
+E000383,24HD,equipment,2019-06-20T22:00,48.615647,110.60563,ONON RIVER,present,M,6,M,61,196,"{""tail"": 138.0}",Caprimulgus europeaus
+E000383,22BS,retrieval,2019-06-20T22:00,48.615647,110.60563,ONON RIVER,present,M,6,M,61,196,"{""tail"": 138.0}",Caprimulgus europeaus
+E000384,,capture,2018-06-22T21:30,48.570665,110.832602,ONON RIVER,none,M,4,F,78,193,"{""tail"": 135.0, ""bill_length"": 8.11, ""bill_width"": 7.25}",Caprimulgus europeaus
+E000385,,capture,2018-06-24T21:30,48.559492,110.883357,ONON RIVER,none,M,4,F,70,201,"{""tail"": 145.0, ""bill_length"": 8.57, ""bill_width"": 6.98}",Caprimulgus europeaus
+E000385,,capture,2019-06-22T04:00,48.559309,110.882959,ONON RIVER,none,M,6,F,,204,"{""tail"": 130.0}",Caprimulgus europeaus
+E000386,,capture,2018-06-22T21:30,48.570665,110.832602,ONON RIVER,none,M,4,F,78,202,"{""tail"": 141.0, ""bill_length"": 9.28, ""bill_width"": 7.1}",Caprimulgus europeaus
+E000387,22CB,equipment,2018-06-25T00:30,48.559492,110.883357,ONON RIVER,present,M,4,M,75,198,"{""tail"": 142.0, ""bill_length"": 9.13, ""bill_width"": 7.1}",Caprimulgus europeaus
+E000388,22BW,equipment,2018-06-25T01:30,48.560682,110.883569,ONON RIVER,present,M,2,M,69,197,"{""tail"": 145.0, ""bill_length"": 8.78, ""bill_width"": 7.24}",Caprimulgus europeaus
+E000389,22AY,equipment,2018-06-25T22:00,48.592992,110.690151,ONON RIVER,present,M,0,M,66,205,"{""tail"": 147.0, ""bill_length"": 8.11, ""bill_width"": 7.15}",Caprimulgus europeaus
+E000390,22BX,equipment,2018-06-25T23:30,48.592992,110.690151,ONON RIVER,present,M,2,M,79,200,"{""tail"": 144.0, ""bill_length"": 9.32, ""bill_width"": 7.49}",Caprimulgus europeaus
+E000391,,capture,2018-06-27T22:00,48.387071,110.179519,BINDERIYA KHAN MOUTAIN,none,M,2,M,76,199,"{""tail"": 151.0, ""bill_length"": 9.18, ""bill_width"": 7.96}",Caprimulgus europeaus
+E000392,,capture,2018-06-27T22:00,48.387071,110.179519,BINDERIYA KHAN MOUTAIN,none,M,4,F,87,210,"{""tail"": 142.0, ""bill_length"": 9.98, ""bill_width"": 6.79}",Caprimulgus jotaka
+E000393,22BT,equipment,2018-06-27T22:30,48.383229,110.176427,BINDERIYA KHAN MOUTAIN,present,M,4,M,65,198,"{""tail"": 147.0, ""bill_length"": 8.76, ""bill_width"": 7.1}",Caprimulgus europeaus
+E000393,24FV,equipment,2019-06-17T02:00,48.38322,110.17642,BINDERIYA KHAN MOUTAIN,present,M,6,M,73,,,Caprimulgus europeaus
+E000393,22BT,retrieval,2019-06-17T02:00,48.38322,110.17642,BINDERIYA KHAN MOUTAIN,present,M,6,M,73,,,Caprimulgus europeaus
+E000394,22BD,equipment,2018-06-27T22:30,48.383229,110.176427,BINDERIYA KHAN MOUTAIN,present,M,4,M,63,197,"{""tail"": 143.0, ""bill_length"": 8.9, ""bill_width"": 6.33}",Caprimulgus europeaus
+E000395,,capture,2018-06-28T01:30,48.387025,110.179596,BINDERIYA KHAN MOUTAIN,none,M,4,M,94,220,"{""tail"": 141.0, ""bill_length"": 9.82, ""bill_width"": 8.17}",Caprimulgus jotaka
+E000396,22BR,equipment,2018-06-28T01:30,48.387071,110.179519,BINDERIYA KHAN MOUTAIN,present,M,4,M,59,195,"{""tail"": 141.0, ""bill_length"": 8.54, ""bill_width"": 6.35}",Caprimulgus europeaus
+E000397,22AZ,equipment,2018-06-28T01:30,48.383229,110.176427,BINDERIYA KHAN MOUTAIN,present,M,2,M,64,195,"{""tail"": 149.0, ""bill_length"": 8.1, ""bill_width"": 7.11}",Caprimulgus europeaus
+E000398,22BV,equipment,2018-06-28T04:00,48.387071,110.179519,BINDERIYA KHAN MOUTAIN,present,M,2,M,68,195,"{""tail"": 134.0, ""bill_length"": 9.52, ""bill_width"": 8.13}",Caprimulgus europeaus
+E000399,,capture,2018-06-28T04:00,48.387071,110.179519,BINDERIYA KHAN MOUTAIN,none,M,4,M,92,204,"{""tail"": 120.0, ""bill_length"": 8.97, ""bill_width"": 6.73}",Caprimulgus jotaka
+E000400,,capture,2018-06-28T04:00,48.383229,110.176427,BINDERIYA KHAN MOUTAIN,none,M,4,M,84,200,"{""tail"": 130.0, ""bill_length"": 9.77, ""bill_width"": 7.57}",Caprimulgus jotaka
+E000501,22AS,equipment,2018-06-30T02:00,48.046371,91.644343,KHOVD CITY,present,M,2,M,74,198,"{""tail"": 152.0, ""bill_length"": 8.96, ""bill_width"": 7.79}",Caprimulgus europeaus
+E000502,,capture,2018-06-30T02:30,48.046371,91.644343,KHOVD CITY,none,M,2,F,80,194,"{""tail"": 140.0, ""bill_length"": 9.3, ""bill_width"": 7.26}",Caprimulgus europeaus
+E000503,,capture,2018-06-30T03:30,48.046565,91.648285,KHOVD CITY,none,M,4,F,67,184,"{""tail"": 133.0, ""bill_length"": 8.88, ""bill_width"": 6.97}",Caprimulgus europeaus
+E000504,22BA,equipment,2018-06-30T22:00,47.569425,92.54069,JARGALANT HAYRHAN,present,M,4,M,68,189,"{""tail"": 135.0, ""bill_length"": 8.18, ""bill_width"": 6.49}",Caprimulgus europeaus
+E000505,,capture,2018-06-30T22:30,47.570934,92.546619,JARGALANT HAYRHAN,none,M,4,F,73,188,"{""tail"": 139.0, ""bill_length"": 9.24, ""bill_width"": 6.77}",Caprimulgus europeaus
+E000506,22BB,equipment,2018-07-01T00:01,47.574087,92.547692,JARGALANT HAYRHAN,present,M,4,M,73,194,"{""tail"": 133.0, ""bill_length"": 9.11, ""bill_width"": 7.3}",Caprimulgus europeaus
+E000507,22BJ,equipment,2018-07-01T00:01,47.574087,92.547692,JARGALANT HAYRHAN,present,M,4,M,72,191,"{""tail"": 125.0, ""bill_length"": 8.01, ""bill_width"": 6.47}",Caprimulgus europeaus
+E000508,,capture,2018-07-01T01:30,47.569425,92.54069,JARGALANT HAYRHAN,none,M,4,M,62,202,"{""tail"": 151.0, ""bill_length"": 8.73, ""bill_width"": 7.67}",Caprimulgus europeaus
+E000509,22BC,equipment,2018-07-01T01:30,47.569425,92.54069,JARGALANT HAYRHAN,present,M,4,M,63,181,"{""tail"": 138.0, ""bill_length"": 8.98, ""bill_width"": 6.87}",Caprimulgus europeaus
+E000510,22BQ,equipment,2018-07-02T21:30,47.564517,92.524711,JARGALANT HAYRHAN,present,M,4,M,59,200,"{""tail"": 149.0, ""bill_length"": 7.93, ""bill_width"": 6.99}",Caprimulgus europeaus
+E000511,22BZ,equipment,2018-07-04T23:30,47.527086,92.545379,JARGALANT HAYRHAN,present,M,4,M,60,190,"{""tail"": 136.0, ""bill_length"": 8.59, ""bill_width"": 6.99}",Caprimulgus europeaus
+E000512,,capture,2018-07-05T02:00,47.52867,92.550035,JARGALANT HAYRHAN,none,M,4,M,75,199,"{""tail"": 143.0, ""bill_length"": 8.59, ""bill_width"": 7.5}",Caprimulgus europeaus
+E000513,,capture,2018-07-05T03:30,47.527086,92.545379,JARGALANT HAYRHAN,none,M,2,M,62,189,"{""tail"": 144.0, ""bill_length"": 9.42, ""bill_width"": 6.53}",Caprimulgus europeaus
+E000514,,capture,2018-07-05T03:30,47.529688,92.552613,JARGALANT HAYRHAN,none,M,4,M,75,197,"{""tail"": 140.0, ""bill_length"": 8.45, ""bill_width"": 7.12}",Caprimulgus europeaus
+E000515,,capture,2018-07-05T22:00,47.54157,92.576021,JARGALANT HAYRHAN,none,M,4,F,70,195,"{""tail"": 144.0, ""bill_length"": 9.41, ""bill_width"": 7.38}",Caprimulgus europeaus
+E000516,,capture,2018-07-05T22:00,47.54157,92.576021,JARGALANT HAYRHAN,none,M,4,M,73,196,"{""tail"": 138.0, ""bill_length"": 8.5, ""bill_width"": 7.39}",Caprimulgus europeaus
+E000516,24FS,equipment,2019-06-29T22:30,47.539798,92.573769,JARGALANT HAYRHAN,present,M,6,M,,,,Caprimulgus europeaus
+E000517,,capture,2018-07-06T01:00,47.538989,92.57258,JARGALANT HAYRHAN,none,M,4,M,71,194,"{""tail"": 149.0, ""bill_length"": 9.07, ""bill_width"": 8.41}",Caprimulgus europeaus
+E000518,,capture,2018-07-06T03:00,47.538989,92.57258,JARGALANT HAYRHAN,none,M,2,M,67,194,"{""tail"": 137.0, ""bill_length"": 9.08, ""bill_width"": 7.27}",Caprimulgus europeaus
+E000519,,capture,2018-07-06T22:30,47.537531,92.565005,JARGALANT HAYRHAN,none,M,4,M,69,195,"{""tail"": 140.0, ""bill_length"": 9.52, ""bill_width"": 7.14}",Caprimulgus europeaus
+MN06001,,capture,2019-06-16T22:00,48.387184,110.180055,BINDERIYA KHAN MOUTAIN,none,M,6,F,85,199,"{""tail"": 126.0, ""bill_length"": 8.14, ""bill_width"": 7.64}",Caprimulgus europeaus
+MN06002,24FE,equipment,2019-06-16T22:30,48.384568,110.175849,BINDERIYA KHAN MOUTAIN,present,M,4,M,89,210,"{""tail"": 134.0, ""bill_length"": 9.52, ""bill_width"": 8.26}",Caprimulgus jotaka
+MN06003,24FU,equipment,2019-06-17T03:00,48.384568,110.175849,BINDERIYA KHAN MOUTAIN,present,M,4,M,98,216,"{""tail"": 137.0, ""bill_length"": 9.44, ""bill_width"": 7.4}",Caprimulgus jotaka
+MN06004,,capture,2019-06-17T03:00,48.384568,110.175849,BINDERIYA KHAN MOUTAIN,none,M,6,F,100,220,"{""tail"": 134.0, ""bill_length"": 9.49, ""bill_width"": 6.94}",Caprimulgus jotaka
+MN06005,,capture,2019-06-17T23:30,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,6,F,89,206,"{""tail"": 134.0, ""bill_length"": 9.54, ""bill_width"": 7.17}",Caprimulgus jotaka
+MN06006,24FD,equipment,2019-06-18T22:00,48.593095,110.689954,ONON RIVER,present,M,6,M,65,205,"{""tail"": 133.0, ""bill_length"": 8.76, ""bill_width"": 7.53}",Caprimulgus europeaus
+MN06007,24EU,equipment,2019-06-19T23:00,48.580412,110.810207,ONON RIVER,present,M,6,M,71,198,"{""tail"": 144.0, ""bill_length"": 9.73, ""bill_width"": 7.53}",Caprimulgus europeaus
+MN06008,,capture,2019-06-20T03:30,48.580958,110.807903,ONON RIVER,none,M,4,F,73,202,"{""tail"": 142.0, ""bill_length"": 9.13, ""bill_width"": 7.57}",Caprimulgus europeaus
+MN06009,,capture,2019-06-20T03:30,48.580958,110.807903,ONON RIVER,none,M,2,F,74,193,"{""tail"": 137.0, ""bill_length"": 8.8, ""bill_width"": 6.49}",Caprimulgus europeaus
+MN06010,24ED,equipment,2019-06-20T21:30,48.570699,110.832607,ONON RIVER,present,M,6,M,67,205,"{""tail"": 140.0, ""bill_length"": 7.73, ""bill_width"": 8.17}",Caprimulgus europeaus
+MN06011,24HA,equipment,2019-06-20T21:30,48.615647,110.60563,ONON RIVER,present,M,6,M,63,206,"{""tail"": 136.0, ""bill_length"": 8.73, ""bill_width"": 7.43}",Caprimulgus europeaus
+MN06012,24HC,equipment,2019-06-21T00:30,48.615647,110.60563,ONON RIVER,present,M,6,M,62,199,"{""tail"": 127.0, ""bill_length"": 9.03, ""bill_width"": 6.97}",Caprimulgus europeaus
+MN06013,,capture,2019-06-21T22:00,48.56089,110.883479,ONON RIVER,none,M,6,F,72,204,"{""tail"": 131.0, ""bill_length"": 8.67, ""bill_width"": 6.45}",Caprimulgus europeaus
+MN06014,24HB,equipment,2019-06-22T00:30,48.559309,110.882959,ONON RIVER,present,M,4,M,73,205,"{""tail"": 137.0, ""bill_length"": 9.03, ""bill_width"": 7.11}",Caprimulgus europeaus
+MN06015,,capture,2019-06-22T02:30,48.559309,110.882959,ONON RIVER,none,M,4,F,84,205,"{""tail"": 139.0, ""bill_length"": 9.35, ""bill_width"": 7.73}",Caprimulgus europeaus
+MN06016,24FQ,equipment,2019-06-22T02:30,48.56089,110.883479,ONON RIVER,present,M,2,M,67,183,"{""tail"": 123.0, ""bill_length"": 8.58, ""bill_width"": 7.29}",Caprimulgus europeaus
+MN06017,,capture,2019-06-22T21:30,48.595542,110.686742,ONON RIVER,none,M,4,F,79,199,"{""tail"": 134.0, ""bill_length"": 8.07, ""bill_width"": 7.06}",Caprimulgus europeaus
+MN06018,24FG,equipment,2019-06-23T01:00,48.596594,110.683195,ONON RIVER,present,M,4,M,72,203,"{""tail"": 135.0, ""bill_length"": 8.03, ""bill_width"": 7.5}",Caprimulgus europeaus
+MN06019,24GY,equipment,2019-06-23T04:00,48.5937,110.688765,ONON RIVER,present,M,4,M,75,201,"{""tail"": 137.0, ""bill_length"": 7.84, ""bill_width"": 6.98}",Caprimulgus europeaus
+MN06020,,capture,2019-06-23T04:00,48.5937,110.688765,ONON RIVER,none,M,2,F,81,198,"{""tail"": 131.0, ""bill_length"": 7.98, ""bill_width"": 7.02}",Caprimulgus europeaus
+MN06021,24GH,equipment,2019-06-23T22:00,48.38322,110.17642,BINDERIYA KHAN MOUTAIN,present,M,4,M,64,194,"{""tail"": 125.0, ""bill_length"": 8.34, ""bill_width"": 7.15}",Caprimulgus europeaus
+MN06022,24GL,equipment,2019-06-23T22:00,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,present,M,6,M,68,198,"{""tail"": 123.0, ""bill_length"": 8.45, ""bill_width"": 6.84}",Caprimulgus europeaus
+MN06023,24GZ,equipment,2019-06-23T22:00,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,present,M,6,M,65,200,"{""tail"": 139.0, ""bill_length"": 9.05, ""bill_width"": 7.64}",Caprimulgus europeaus
+MN06024,24GJ,equipment,2019-06-24T01:00,48.38322,110.17642,BINDERIYA KHAN MOUTAIN,present,M,2,M,70,195,"{""tail"": 128.0, ""bill_length"": 8.52, ""bill_width"": 7.21}",Caprimulgus europeaus
+MN06025,24GK,equipment,2019-06-24T01:00,48.384568,110.175849,BINDERIYA KHAN MOUTAIN,present,M,2,M,66,197,"{""tail"": 126.0, ""bill_length"": 9.36, ""bill_width"": 7.26}",Caprimulgus europeaus
+MN06026,,capture,2019-06-24T03:30,48.384568,110.175849,BINDERIYA KHAN MOUTAIN,none,M,6,F,,196,"{""tail"": 120.0, ""bill_length"": 9.85, ""bill_width"": 7.21}",Caprimulgus jotaka
+MN06027,24EX,equipment,2019-06-26T23:00,47.573398,92.547894,JARGALANT HAYRHAN,present,M,6,M,71,195,"{""tail"": 130.0, ""bill_length"": 8.44, ""bill_width"": 8.63}",Caprimulgus europeaus
+MN06028,24ER,equipment,2019-06-27T04:00,47.57107,92.548224,JARGALANT HAYRHAN,present,M,6,M,71,199,"{""tail"": 132.0, ""bill_length"": 8.41, ""bill_width"": 6.89}",Caprimulgus europeaus
+MN06029,,capture,2019-06-27T21:30,47.569546,92.552826,JARGALANT HAYRHAN,none,M,6,F,77,196,"{""tail"": 136.0, ""bill_length"": 8.94, ""bill_width"": 6.9}",Caprimulgus europeaus
+MN06030,24FT,equipment,2019-06-28T23:30,47.567402,92.53548,JARGALANT HAYRHAN,present,M,6,M,70,200,"{""tail"": 134.0, ""bill_length"": 9.46, ""bill_width"": 7.53}",Caprimulgus europeaus
+MN06031,,capture,2019-06-29T21:30,47.54122,92.576463,JARGALANT HAYRHAN,none,M,4,F,73,196,"{""tail"": 121.0, ""bill_length"": 9.33, ""bill_width"": 6.87}",Caprimulgus europeaus
+MN06033,24FB,equipment,2019-06-29T22:30,47.54122,92.576463,JARGALANT HAYRHAN,present,M,6,M,65,198,"{""tail"": 123.0, ""bill_length"": 9.23, ""bill_width"": 7.94}",Caprimulgus europeaus
+MN06034,24FR,equipment,2019-07-02T22:00,47.528115,92.549989,JARGALANT HAYRHAN,present,M,4,M,68,205,"{""tail"": 143.0, ""bill_length"": 9.59, ""bill_width"": 7.06}",Caprimulgus europeaus
+MN06035,24FP,equipment,2019-07-02T23:30,47.528115,92.549989,JARGALANT HAYRHAN,present,M,6,M,68,201,"{""tail"": 128.0, ""bill_length"": 9.3, ""bill_width"": 6.97}",Caprimulgus europeaus
+MN06036,24FO,equipment,2019-07-03T22:00,48.04656,91.64828,KHOVD CITY,present,M,4,M,64,194,"{""tail"": 145.0, ""bill_length"": 8.88, ""bill_width"": 6.84}",Caprimulgus europeaus
+MN06037,24ET,equipment,2019-07-03T22:00,48.04656,91.64828,KHOVD CITY,present,M,4,M,66,199,"{""tail"": 132.0, ""bill_length"": 9.48, ""bill_width"": 6.91}",Caprimulgus europeaus
+MN06090,24FH,equipment,2019-06-17T21:30,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,present,M,6,M,86,209,"{""tail"": 131.0, ""bill_length"": 9.82, ""bill_width"": 7.89}",Caprimulgus jotaka
+MN06096,24FA,equipment,2019-06-17T21:30,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,present,M,6,M,79,209,"{""tail"": 123.0, ""bill_length"": 9.77, ""bill_width"": 6.82}",Caprimulgus jotaka
+E000395,,capture,2020-06-23T00:00,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,6,M,85.4,220,"{""tail"": 135, ""bill_length"": 18.3}",Caprimulgus jotaka
+E000606,,capture,2020-06-23T00:00,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,4,M,87.9,213,"{""tail"": 126, ""bill_length"": 21.6}",Caprimulgus jotaka
+E000607,,capture,2020-06-23T00:00,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,6,M,85.3,210,"{""tail"": 126, ""bill_length"": 21.4}",Caprimulgus jotaka
+E000531,,capture,2021-06-13T21:30,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,6,F,76.42,200,"{""tail"": 140, ""bill_length"": 22.4}",Caprimulgus europeaus
+E000532,,capture,2021-06-13T21:30,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,6,M,70.66,208,"{""tail"": 128, ""bill_length"": 22}",Caprimulgus jotaka
+E000533,,capture,2021-06-13T21:30,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,6,M,57.02,197,"{""tail"": 136, ""bill_length"": 20.2}",Caprimulgus europeaus
+E000534,,capture,2021-06-13T21:30,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,4,M,72.61,215,"{""tail"": 113, ""bill_length"": 22.3}",Caprimulgus jotaka
+E000535,,capture,2021-06-14T04:30,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,4,F,80.97,199,"{""tail"": 142, ""bill_length"": 21.6}",Caprimulgus europeaus
+E000536,,capture,2021-06-14T04:30,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,6,F,74.02,200.4,"{""tail"": 143, ""bill_length"": 23.5}",Caprimulgus europeaus
+E000537,,capture,2021-06-14T04:30,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,6,F,79.09,195,"{""tail"": 132, ""bill_length"": 21.8}",Caprimulgus europeaus
+E000538,,capture,2021-06-14T04:30,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,6,F,91.75,201,"{""tail"": 117, ""bill_length"": 23.5}",Caprimulgus jotaka
+E000539,,capture,2021-06-14T04:30,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,4,M,101.88,210,"{""tail"": 125, ""bill_length"": 25}",Caprimulgus jotaka
+E000540,,capture,2021-06-14T04:30,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,4,M,91.23,209,"{""tail"": 125, ""bill_length"": 22.6}",Caprimulgus jotaka
+E000543,,capture,2021-06-14T21:27,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,6,M,61.49,195.5,"{""tail"": 138, ""bill_length"": 22}",Caprimulgus europeaus
+E000544,,capture,2021-06-14T22:00,48.38461,110.1724,BINDERIYA KHAN MOUTAIN,none,M,6,F,78.53,194,"{""tail"": 136, ""bill_length"": 21.6}",Caprimulgus europeaus
+MN06006,24FD ,retrieval,2021-06-15T21:20,48.5937,110.688765,ONON RIVER,present,M,6,M,62.36,205,"{""tail"": 145, ""bill_length"": 20.1}",Caprimulgus europeaus
